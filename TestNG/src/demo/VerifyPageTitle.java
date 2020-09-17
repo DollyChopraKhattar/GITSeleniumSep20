@@ -17,6 +17,7 @@ import org.testng.annotations.Test;
 
 public class VerifyPageTitle {
 	WebDriver driver;
+	//adding a test comment
 	@BeforeTest
 	public void openApplication() {
 		System.setProperty("WebDriver.chrome.driver", "chromedriver.exe");
